@@ -47,6 +47,6 @@ io.on("connection", (socket) => {
 
 app.get('/', (req, res) => res.send('Hello World!'));
 
-server.listen(8000,  () => {
+server.listen(3000,  () => {
   console.log('Server listening on http://0.0.0.0:8000');
 });
